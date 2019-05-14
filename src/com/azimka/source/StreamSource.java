@@ -1,9 +1,7 @@
-package com.azimka.creation;
+package com.azimka.source;
 
 import java.util.*;
-import java.util.function.Predicate;
 import java.util.function.Supplier;
-import java.util.stream.DoubleStream;
 import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 import java.util.stream.Stream;
