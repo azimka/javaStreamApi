@@ -1,4 +1,4 @@
-package com.azimka.source;
+package com.azimka.operators.source;
 
 import java.util.*;
 import java.util.function.Supplier;

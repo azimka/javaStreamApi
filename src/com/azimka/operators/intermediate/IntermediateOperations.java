@@ -1,4 +1,4 @@
-package com.azimka.intermediateoperations;
+package com.azimka.operators.intermediate;
 
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
@@ -35,11 +35,11 @@ public class IntermediateOperations {
         return Stream.of(12, 2, 3, 4, 52, 3, 4, 1, 2, 3).distinct();
     }
 
-    public Stream peekUsage(){
-        return Stream.of(1,2,3,4,5,6).peek(System.out::println).distinct().peek(System.out::println);
+    public Stream peekUsage() {
+        return Stream.of(1, 2, 3, 4, 5, 6).peek(System.out::println).distinct().peek(System.out::println);
     }
 
-    public Stream boxedUsage(){
-        return IntStream.of(0,1,2,3).boxed();
+    public Stream boxedUsage() {
+        return IntStream.of(0, 1, 2, 3).boxed();
     }
 }
